@@ -3,15 +3,12 @@
 
 int main() {
 
-  char s1[] = "Hello";
-  char s2[] = "";
-  
-  size_t len_s1 = strlen(s1);
-  printf("%s", s1);
+  char s1[] = "Hello, World";
+  int len = strlen(s1) -1;
 
-  while (len_s1 != -1) {
-    len_1--1;
-    printf(len_1);
+  while (len >=0) {
+    printf("%c\n", s1[len]);
+    len--;
   }
   return 0;
 }
